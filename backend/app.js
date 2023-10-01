@@ -564,6 +564,10 @@ function weatherApi() {
 
 weatherApi();
 
+//  Business logic for test 
+app.get("/api/test", (req,res )=>{
+    console.log("Here is test ");
+})
 
 // Business Logic Get All Users
 
